@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey");
-            Console.ReadKey();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Aren Gul");
+            Console.WriteLine("---------------------------------"); 
+            Console.ResetColor();
         }
     }
 }
